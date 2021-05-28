@@ -1,0 +1,90 @@
+.logo {
+    height: 5rem;
+    width: 5rem;
+    margin: 0;
+}
+
+.welcome {
+    height: 2.5rem;
+    font-weight: 600;
+    font-size: large;
+    background-color: lightgray;
+    margin-top: 0;
+    margin-right: 0;
+    padding: 5px 40px 5px 40px;
+}
+
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: important rgba(73, 59, 59, 0);
+}
+
+.burgericon {
+    height: 1.5rem;
+    border-radius: 0 0 0 0 !important;
+}
+
+.nav-welcome {
+    display: inline-flex;
+    
+}
+/* end of nav styles */
+
+.refresh {
+    background-color: darkgrey;
+    width: 10%;
+    padding: 5px 0 25px 5px;
+    font-weight: 500;
+}
+
+.main-content{
+    background-color: lightgrey;
+    padding-bottom: 90px;
+}
+
+.mapimg {
+    height: 500px;
+    width: 500px;
+}
+
+.cardimg {
+    height: 75px;
+    width: 75px;
+    margin-left: 25px;
+}
+
+.voucher {
+    border-radius: 50%;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    padding-top: 160px;
+    padding-left: 130px;
+    margin: 10px 0 0 20px;
+}
+
+.voucher-text {
+    font-size: 45px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.map-content {
+    margin-left: 205px;
+}
+
+.map-text {
+    font-size: 25px;
+    font-weight: 400;
+}

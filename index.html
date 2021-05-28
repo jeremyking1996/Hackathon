@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher Main Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- All navbar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="./images/voucherLogo.jpeg" alt="" width="30" height="24">
+          </a>
+          <div class="nav-welcome">
+          <div class="nav-menu">
+          <p class="welcome">Hello, Steph!</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="burgericon" src="images/burgermenuicon.png" />
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><button class="dropdown-item" type="button">System Preferences</button></li>
+              <li><button class="dropdown-item" type="button">My Account</button></li>
+              <li><button class="dropdown-item" type="button">Notifications</button></li>
+              <li><button class="dropdown-item" type="button">Help</button></li>
+              <li><button class="dropdown-item" type="button">Voucher Preferences</button></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- // End of nav / -->
+      <div class="main-content">
+      <div class="refresh">Days till refresh: </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="voucher">
+                <a href="https://www.goebt.com/" class="voucher-text">Voucher</a>
+                <br/>
+              <img class="cardimg" src="images/cardemoji.png">
+            </div>
+          </div>
+          <div class="col">
+            <div class="map-content">
+                <p class="map-text">Nearest locations:</p>
+                <img class ="mapimg" src="images/mapvoucher.jpg">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="script.js" />
+</html>
